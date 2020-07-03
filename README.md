@@ -1,10 +1,10 @@
 # redis-scripts
 
-## expired
+## expires
 This script shows the seconds until a key expires.
 
-![alt text](https://github.com/schnittker/redis-scripts/blob/master/screenshots/expired.png?raw=true)
+![alt text](https://github.com/schnittker/redis-scripts/blob/master/screenshots/expires.png?raw=true)
 
 ```bash
-./expired.sh
+./expires.sh
 ```
