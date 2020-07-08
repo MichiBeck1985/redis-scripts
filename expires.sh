@@ -1,6 +1,7 @@
 #!/bin/sh
 
-keys=`redis-cli --scan --pattern '*'`
+input=`redis-cli --scan --pattern '*'`
+keys=($input);
 echo "total: ${#keys[@]} items"
 
 for key in "${keys[@]}"
